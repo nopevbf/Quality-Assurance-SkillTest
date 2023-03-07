@@ -14,17 +14,15 @@ The information required includes the email or phone number and password. Additi
 
 ## 2. Acceptance criteria
 
-```
-    1. All required fields must be filled before a user can submit the form.
+1. All required fields must be filled before a user can submit the form.
 
-    2. The email address must be in a valid format, and the password must meet the platform's password requirements (i.e., at least 8 characters long, with at least one uppercase letter, lowercase letter, and number).
+2. The email address must be in a valid format, and the password must meet the platform's password requirements (i.e., at least 8 characters long, with at least one uppercase letter, lowercase letter, and number).
 
-    3. If the user chooses to sign up with their Google account, the platform must prompt for authorization to access the user's Google account information.
+3. If the user chooses to sign up with their Google account, the platform must prompt for authorization to access the user's Google account information.
 
-    4. Upon submission of the registration form, the user's information should be saved in the database, and the user should be redirected to a confirmation page where they can review their registration details before the final submission.
+4. Upon submission of the registration form, the user's information should be saved in the database, and the user should be redirected to a confirmation page where they can review their registration details before the final submission.
 
-    5. The confirmation page should display the user's first and last name, job title, and company name.
-```
+5. The confirmation page should display the user's first and last name, job title, and company name.
 
 ## 3. Describe with BDD format
 
