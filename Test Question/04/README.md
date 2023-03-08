@@ -1,4 +1,4 @@
-## [Score : 20] Create all possible Test Cases of a Login and Create User via POST Method using endpoint that is provided on this link https://reqres.in/ (only test case scenario, just like question #2).
+## Create all possible Test Cases of a Login and Create User via POST Method using endpoint that is provided on this link https://reqres.in/ (only test case scenario, just like question #2).
 
 ## Additional Description for :
 
@@ -22,7 +22,7 @@ body: {
       }
 ```
 
-## Answer:
+## Answers:
 
 |    ID     |                         Title                         |                                                        Short Description                                                        | Severity | Type of test |                                                                      Steps                                                                      |                       Test Data                       |                                                              Expected Results                                                               |                   Note                   |
 | :-------: | :---------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: | :------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------: |

@@ -1,4 +1,4 @@
-## [**Score : 20]\*\* Please go to [https://www.demoblaze.com/index.html](https://www.demoblaze.com/index.html)
+## Please go to [https://www.demoblaze.com/index.html](https://www.demoblaze.com/index.html)
 
 After that, please create an Automation Test to check the functionality of links on Header and Sidebar on the [https://www.demoblaze.com/index.html](https://www.demoblaze.com/index.html)
 
@@ -8,7 +8,7 @@ After that, please create an Automation Test to check the functionality of links
 - Please attach the code of automation test, or the log / report after automation test finished
 - Push the code to github (**set the repository as private, invite training@refactory.id as collaborator and put the link on the spreadsheet**)
 
-## Answer:
+## Answers:
 
 ## Tool: **Selenium IDE**
 

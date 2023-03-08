@@ -1,10 +1,10 @@
-## [Score : 10] Please go to https://reqres.in/ After that, please hit following URL endpoint using POSTMAN with correct method and screenshot the result (both Body Request (if any) and Body Response)
+## Please go to https://reqres.in/ After that, please hit following URL endpoint using POSTMAN with correct method and screenshot the result (both Body Request (if any) and Body Response)
 
 1. [https://reqres.in/](https://reqres.in/) **GET** List User
 2. [https://reqres.in/](https://reqres.in/) **POST** Create using your own data
 3. [https://reqres.in/](https://reqres.in/)**PATCH** Update your user id in point b
 
-## Answer:
+## Answers:
 
 1. [https://reqres.in/](https://reqres.in/) **GET** List User
 
