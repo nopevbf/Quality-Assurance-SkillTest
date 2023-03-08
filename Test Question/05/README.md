@@ -12,9 +12,11 @@ After that, please create an Automation Test to check the functionality of links
 
 ## Tool: **Selenium IDE**
 
-## 1. homepage- verify that the homepage is displayed. - This test case checks if the homepage link on the header is functioning properly.
+### **1. homepage- verify that the homepage is displayed. - This test case checks if the homepage link on the header is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FlZGViOTJhNmYyNGM1ZTk4MWNiNDZjMTM0OWUyNmIzM2Q5ZTg0YSZjdD1n/Lul7UGI9AOWRzsItfn/giphy.gif">
+
+### Code: [Homepage](/Test%20Question/05/code/HomepageTest.java)
 
 ### Log:
 
@@ -27,9 +29,11 @@ Running 'homepage'
 'homepage' completed successfully
 ```
 
-## 2. contact- verify that the contact page is displayed. - This test case checks if the contact link on the header is functioning properly.
+### **2. contact- verify that the contact page is displayed. - This test case checks if the contact link on the header is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjQxMzM1Y2UwMDI1MzFlMDEwYTc5YmNlZmFkN2Q1ZGUxZjEwZWVlNiZjdD1n/6m5Yo5xC0dzhfzyIpL/giphy.gif">
+
+### Code: [Contact](/Test%20Question/05/code/ContactTest.java)
 
 ### Log:
 
@@ -45,9 +49,11 @@ Running 'contact'
 'contact' completed successfully
 ```
 
-## 3. about- verify that the contact page is displayed. - This test case checks if the contact link on the header is functioning properly.
+### **3. about- verify that the contact page is displayed. - This test case checks if the contact link on the header is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTkwZDQyM2Q2YzYzZTZkZDY5MmQzNzQxM2RhYmUzMDMwZGNkOTIyNiZjdD1n/B5XLARgLSEFKubVU3W/giphy.gif">
+
+### Code: [About](/Test%20Question/05/code/AboutTest.java)
 
 ### Log:
 
@@ -61,9 +67,11 @@ Running 'about '
 'about ' completed successfully
 ```
 
-## 4. signup- verify that the sign up page is displayed. - This test case checks if the sign up link on the header is functioning properly.
+### **4. signup- verify that the sign up page is displayed. - This test case checks if the sign up link on the header is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjlhMGU4ZGI1MmU0MTBjNTQ2MTlhZDJkNjkyNDkzODdiMmY3MDE4MyZjdD1n/PlfXxsxcdp6TJhB8Op/giphy.gif">
+
+### Code: [Signup](/Test%20Question/05/code/SignupTest.java)
 
 ### Log:
 
@@ -87,9 +95,11 @@ Running 'signup'
 'signup' completed successfully
 ```
 
-## 5. login- verify that the login page is displayed. -his test case checks if the login link on the header is functioning properly.
+### **5. login- verify that the login page is displayed. -his test case checks if the login link on the header is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRiZDlhN2Q5NzY5ZTQ3OTEzYzExM2E5ZTI0ZGNhZThiMTIyMGZkOCZjdD1n/kJfJdAyzqXdkAoCrxx/giphy.gif">
+
+### Code: [Login](/Test%20Question/05/code/LoginsuccessTest.java)
 
 ### Log:
 
@@ -106,9 +116,11 @@ Running 'login success '
 'login success ' completed successfully
 ```
 
-## 6. sidebar- verify that every sidebar is displayed. - This test case checks if the link on the sidebar is functioning properly.
+### **6. sidebar- verify that every sidebar is displayed. - This test case checks if the link on the sidebar is functioning properly.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjk0ZjI3MDM5OTVkOGMxYjJkODQ3YmJmNDA1MjEyNWY1ZTRiNGI0ZSZjdD1n/PsxhPYrSJpJ2bLmeOj/giphy.gif">
+
+### Code: [Sidebar](/Test%20Question/05/code/SidebarTest.java)
 
 ### Log:
 
@@ -130,10 +142,13 @@ Running 'sidebar'
 'sidebar' completed successfully
 ```
 
-## 6. cart- verify that the cart page is displayed. - This test case checks if the cart link on the header is functioning properly, add some items and delete it. Also Order
+### **7. cart- verify that the cart page is displayed. - This test case checks if the cart link on the header is functioning properly, add some items and delete it. Also Order**
 
 **Add Cart**
+
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGVjMGI3NjA5ZGEzZWU1ZmJiYmY1YTMxMzljZTlmMjA2MjFiNmEyYSZjdD1n/ScEoDVhcIoqHbujyxU/giphy.gif">
+
+### Code: [Add cart](/Test%20Question/05/code/AddcartTest.java)
 
 ### Log:
 
@@ -154,7 +169,10 @@ Running 'add_cart'
 ```
 
 **Delete Cart**
+
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDA4MDI2ZDdkMzBjNWE3MDQ0ZDJkOGIxYzQ1YzMxODEzZjgzM2VhYiZjdD1n/ECTlTzRZLOMcHwGIZU/giphy.gif">
+
+### Code: [Delete cart](/Test%20Question/05/code/DeletecartTest.java)
 
 ### Log:
 
@@ -170,7 +188,10 @@ Running 'delete_cart'
 ```
 
 **Order Cart**
+
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGY1MDE4MGFiYmU1ZjFiYTVjZTJmY2QyMGIwM2Y5YzNlMDY4NTdiNiZjdD1n/Y7m3raFFNPcuk1NHKa/giphy.gif">
+
+### Code: [Order cart](/Test%20Question/05/code/CartplaceorderTest.java)
 
 ### Log:
 
@@ -198,11 +219,11 @@ Running 'cart_place_order'
 'cart_place_order' completed successfully
 ```
 
-## 6. logout- verify that the user is logged out and redirected to the homepage. - This test case checks if the log out link on the header is functioning properly, and if the user is successfully logged out and redirected to the homepage.
+### **8. logout- verify that the user is logged out and redirected to the homepage. - This test case checks if the log out link on the header is functioning properly, and if the user is successfully logged out and redirected to the homepage.**
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdmYTk4M2Q1NjU0MWI0NmRjMzAyN2JlMTg4NTU0ODQ5MTI1NmNiZiZjdD1n/uHo0CIwyOF9ZZXcyDo/giphy.gif">
 
-### Code: [logout](/Test%20Question/05/code/LogoutTest.java)
+### Code: [Logout](/Test%20Question/05/code/LogoutTest.java)
 
 ### Log:
 
