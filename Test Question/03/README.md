@@ -8,7 +8,7 @@
 
 1. [https://reqres.in/](https://reqres.in/) **GET** List User
 
-<img src="../../assets/03_01.png" width="450" height="250">
+<img src="../../assets/03_01.png" >
 
 ### Response:
 
@@ -71,7 +71,7 @@
 
 2. [https://reqres.in/](https://reqres.in/) **POST** Create using your own data
 
-<img src="../../assets/03_02.png" width="450" height="250">
+<img src="../../assets/03_02.png" >
 
 ### Response:
 
@@ -86,7 +86,7 @@
 
 3. [https://reqres.in/](https://reqres.in/)**PATCH** Update your user id in point b
 
-<img src="../../assets/03_03.png" width="450" height="250">
+<img src="../../assets/03_03.png" >
 
 ### Response:
 
