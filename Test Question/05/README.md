@@ -202,6 +202,8 @@ Running 'cart_place_order'
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdmYTk4M2Q1NjU0MWI0NmRjMzAyN2JlMTg4NTU0ODQ5MTI1NmNiZiZjdD1n/uHo0CIwyOF9ZZXcyDo/giphy.gif">
 
+### Code: [logout](/Test%20Question/05/code/LogoutTest.java)
+
 ### Log:
 
 ```
