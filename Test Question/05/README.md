@@ -87,158 +87,128 @@ Running 'signup'
 'signup' completed successfully
 ```
 
-```
-Running 'sidebar'
-01:22:53
-1.
-open on https://www.demoblaze.com/index.html OK
-01:22:53
-2.
-setWindowSize on 1074x618 OK
-01:22:54
-3.
-click on id=itemc OK
-01:22:55
-4.
-click on id=itemc OK
-01:22:56
-5.
-click on linkText=Sony xperia z5 OK
-01:22:57
-6.
-click on css=.active > .nav-link OK
-01:22:57
-7.
-click on linkText=Laptops OK
-01:22:59
-8.
-click on linkText=MacBook Pro OK
-01:22:59
-9.
-click on css=.active > .nav-link OK
-01:23:00
-10.
-click on linkText=Monitors OK
-01:23:01
-11.
-click on linkText=ASUS Full HD OK
-01:23:02
-12.
-click on css=.active > .nav-link OK
-01:23:03
-13.
-close OK
-01:23:04
-'sidebar' completed successfully
-```
+## 5. login- verify that the login page is displayed. -his test case checks if the login link on the header is functioning properly.
 
-```
-Running 'delete_cart'
-01:21:15
-1.
-open on https://www.demoblaze.com/index.html OK
-01:21:16
-2.
-setWindowSize on 1074x618 OK
-01:21:16
-3.
-click on id=cartur OK
-01:21:16
-4.
-Trying to find linkText=Delete... OK
-01:21:17
-5.
-click on linkText=Delete OK
-01:21:19
-6.
-close OK
-01:21:19
-'delete_cart' completed successfully
-```
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRiZDlhN2Q5NzY5ZTQ3OTEzYzExM2E5ZTI0ZGNhZThiMTIyMGZkOCZjdD1n/kJfJdAyzqXdkAoCrxx/giphy.gif">
 
-```
-Running 'add_cart'
-01:20:21
-1.
-open on https://www.demoblaze.com/index.html OK
-01:20:21
-2.
-setWindowSize on 1074x618 OK
-01:20:21
-3.
-Trying to find linkText=Samsung galaxy s6... OK
-01:20:21
-4.
-Trying to find linkText=Add to cart... OK
-01:20:22
-5.
-assertAlert on Product added. OK
-01:20:24
-6.
-click on css=.active > .nav-link OK
-01:20:24
-7.
-Trying to find linkText=Sony vaio i5... OK
-01:20:24
-8.
-Trying to find linkText=Add to cart... OK
-01:20:25
-9.
-assertAlert on Product added. OK
-01:20:26
-10.
-click on id=cartur OK
-01:20:26
-11.
-close OK
-01:20:27
-'add_cart' completed successfully
-```
-
-```
-Running 'logout'
-01:18:43
-1.
-open on https://www.demoblaze.com/index.html OK
-01:18:43
-2.
-setWindowSize on 1074x618 OK
-01:18:44
-3.
-click on id=logout2 OK
-01:18:44
-4.
-close OK
-01:18:45
-'logout' completed successfully
-```
+### Log:
 
 ```
 Running 'login success '
-01:16:31
-1.
-open on https://www.demoblaze.com/index.html OK
-01:16:31
-2.
-setWindowSize on 1074x618 OK
-01:16:32
-3.
-click on id=login2 OK
-01:16:32
-4.
-click on id=loginusername OK
-01:16:34
-5.
-type on id=loginusername with value firaji OK
-01:16:34
-6.
-type on id=loginpassword with value qwertyuiop OK
-01:16:35
-7.
-click on css=#logInModal .btn-primary OK
-01:16:36
-8.
-close OK
-01:16:36
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.click on id=login2 OK
+4.click on id=loginusername OK
+5.type on id=loginusername with value firaji OK
+6.type on id=loginpassword with value qwertyuiop OK
+7.click on css=#logInModal .btn-primary OK
+8.close OK
 'login success ' completed successfully
+```
+
+## 6. sidebar- verify that every sidebar is displayed. - This test case checks if the link on the sidebar is functioning properly.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjk0ZjI3MDM5OTVkOGMxYjJkODQ3YmJmNDA1MjEyNWY1ZTRiNGI0ZSZjdD1n/PsxhPYrSJpJ2bLmeOj/giphy.gif">
+
+### Log:
+
+```
+Running 'sidebar'
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.click on id=itemc OK
+4.click on id=itemc OK
+5.click on linkText=Sony xperia z5 OK
+6.click on css=.active > .nav-link OK
+7.click on linkText=Laptops OK
+8.click on linkText=MacBook Pro OK
+9.click on css=.active > .nav-link OK
+10.click on linkText=Monitors OK
+11.click on linkText=ASUS Full HD OK
+12.click on css=.active > .nav-link OK
+13.close OK
+'sidebar' completed successfully
+```
+
+## 6. cart- verify that the cart page is displayed. - This test case checks if the cart link on the header is functioning properly, add some items and delete it. Also Order
+
+**Add Cart**
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGVjMGI3NjA5ZGEzZWU1ZmJiYmY1YTMxMzljZTlmMjA2MjFiNmEyYSZjdD1n/ScEoDVhcIoqHbujyxU/giphy.gif">
+
+### Log:
+
+```
+Running 'add_cart'
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.Trying to find linkText=Samsung galaxy s6... OK
+4.Trying to find linkText=Add to cart... OK
+5.assertAlert on Product added. OK
+6.click on css=.active > .nav-link OK
+7.Trying to find linkText=Sony vaio i5... OK
+8.Trying to find linkText=Add to cart... OK
+9.assertAlert on Product added. OK
+10.click on id=cartur OK
+11.close OK
+'add_cart' completed successfully
+```
+
+**Delete Cart**
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDA4MDI2ZDdkMzBjNWE3MDQ0ZDJkOGIxYzQ1YzMxODEzZjgzM2VhYiZjdD1n/ECTlTzRZLOMcHwGIZU/giphy.gif">
+
+### Log:
+
+```
+Running 'delete_cart'
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.click on id=cartur OK
+4.Trying to find linkText=Delete... OK
+5.click on linkText=Delete OK
+6.close OK
+'delete_cart' completed successfully
+```
+
+**Order Cart**
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGY1MDE4MGFiYmU1ZjFiYTVjZTJmY2QyMGIwM2Y5YzNlMDY4NTdiNiZjdD1n/Y7m3raFFNPcuk1NHKa/giphy.gif">
+
+### Log:
+
+```
+Running 'cart_place_order'
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.click on id=cartur OK
+4.click on css=.btn-success OK
+5.mouseOver on css=.btn-success OK
+6.mouseOut on css=.btn-success OK
+7.click on id=name OK
+8.type on id=name with value Firman Aji Prasetyo OK
+9.type on id=country with value Indonesia OK
+10.type on id=city with value Kabupaten Magelang OK
+11.click on id=card OK
+12.type on id=card with value 123456789 OK
+13.click on id=month OK
+14.type on id=month with value July OK
+15.click on id=year OK
+16.type on id=year with value 2023 OK
+17.click on css=#orderModal .btn-primary OK
+18.click on css=.confirm OK
+19.close OK
+'cart_place_order' completed successfully
+```
+
+## 6. logout- verify that the user is logged out and redirected to the homepage. - This test case checks if the log out link on the header is functioning properly, and if the user is successfully logged out and redirected to the homepage.
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdmYTk4M2Q1NjU0MWI0NmRjMzAyN2JlMTg4NTU0ODQ5MTI1NmNiZiZjdD1n/uHo0CIwyOF9ZZXcyDo/giphy.gif">
+
+### Log:
+
+```
+Running 'logout'
+1.open on https://www.demoblaze.com/index.html OK
+2.setWindowSize on 1074x618 OK
+3.click on id=logout2 OK
+4.close OK
+'lgout' completed successfully
 ```
