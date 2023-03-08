@@ -14,3 +14,7 @@ At least, the test cases must contain :
 8. Note
 
 ## Answer
+
+|    ID     |         Title         |                            Short Description                            | Severity | Type of test |                                          Steps                                          |                   Test Data                   |                        Expected Results                         | Note |
+| :-------: | :-------------------: | :---------------------------------------------------------------------: | :------: | :----------: | :-------------------------------------------------------------------------------------: | :-------------------------------------------: | :-------------------------------------------------------------: | :--: |
+| TS_LG_001 | Invalid Email Address | Verify error message displayed when an invalid email address is entered |   High   |  Functional  | 1. Enter an invalid email address in the email field <br> 2. Click on "Join now" button | Email address: abc@xyz <br> Password: test123 | Error message "Please enter a valid email address" is displayed |  -   |
