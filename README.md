@@ -2,13 +2,6 @@
 
 ---
 
-- Pengarahan Skill Test	            : 7 Maret 2022, Pukul 10.45 WIB
-- Pengerjaan Skill Test	            : 7 - 9 Maret 2022
-- Batas Pengumpulan Skill Test    : 9 Maret 2022, Pukul 14.00 WIB
-- Pengumuman Hasil Skill Test	    : 10 Maret 2022, Pukul 16.00 WIB
-
----
-
 Soal :
 
 - [Frontend](https://www.notion.so/Frontend-07777a8b64474e6fa21356dac848d9e4)
